@@ -13,7 +13,7 @@ A responsive and user-friendly Flutter application designed to help you monitor 
 
 ## Screenshots
 
-![Screenshot 1](screenshot1.png)
+![Screenshot 1](iPhone_Mockup_5.png)
 
 
 
