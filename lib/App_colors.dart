@@ -1,3 +1,4 @@
 class AppColors {
-  static int color =  0x4682B4;
+  static int steelblue =  0xFF696969;
+  static int grey = 0xFF696969;
 }
