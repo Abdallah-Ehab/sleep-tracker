@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
+import 'package:sleep_tracker/App_colors.dart';
 import 'package:sleep_tracker/cubit/cubit/fetchdata_cubit.dart';
 import 'package:sleep_tracker/local_storage.dart';
 import 'package:sleep_tracker/my_bar_chart.dart';
@@ -97,7 +98,7 @@ class _HomePageState extends State<HomePage> {
                 Text(
                   "Recommendations",
                   style: TextStyle(
-                    color: const Color(0xFF696969),
+                    color:  Color(AppColors.grey),
                     fontFamily: "Arial",
                     fontSize: screenWidth * 0.045,
                     fontWeight: FontWeight.bold,
@@ -112,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                     "3. Create a relaxing bedtime routine.\n"
                     "4. Keep your bedroom cool, dark, and quiet.",
                     style: TextStyle(
-                      color: const Color(0xFF696969),
+                      color:  Color(AppColors.grey),
                       fontFamily: "Arial",
                       fontSize: screenWidth * 0.04,
                     ),

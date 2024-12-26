@@ -2,6 +2,7 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:sleep_tracker/App_colors.dart';
 import 'package:sleep_tracker/cubit/cubit/fetchdata_cubit.dart';
 import 'package:sleep_tracker/cubit/cubit/fetchdata_state.dart';
 import 'package:sleep_tracker/local_storage.dart';
@@ -23,7 +24,7 @@ class MyBarChart extends StatelessWidget {
   // //       barRods: [
   // //         BarChartRodData(
   // //           toY: (item['duration'] as num).toDouble(),
-  // //           color: const Color(0xFF4682B4), // Steel Blue color for bars
+  // //           color: const Color(AppColors.steelblue), // Steel Blue color for bars
   // //           width: 20, // Wider bars
   // //           borderRadius: BorderRadius.circular(4),
   // //         )
@@ -53,7 +54,7 @@ class MyBarChart extends StatelessWidget {
               barRods: [
                 BarChartRodData(
                   toY: (item['duration'] as num).toDouble(),
-                  color: const Color(0xFF4682B4), // Steel Blue color for bars
+                  color:  Color(AppColors.steelblue), // Steel Blue color for bars
                   width: 20, // Wider bars
                   borderRadius: BorderRadius.circular(4),
                 
